@@ -1,6 +1,6 @@
 import React from "react";
 
-function CatList({ catPics = [] }) {
+function CatList({ catPics }) {
   return (
     <div>
       {catPics.map((pic) => (
